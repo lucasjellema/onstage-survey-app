@@ -1,0 +1,839 @@
+{
+  "title": "Conclusion On Stage Survey",
+  "description": "Een evenement waarin collega's uit het Conclusion ecosysteem rond inhoud elkaar ontmoeten. Is daar interesse in? Zo ja, in welke vorm en met wat voor inhoud? Gaan we door met Conclusion on Stage - en zo ja, hoe dan? Deze survey moet op die vragen een antwoord geven.",
+  "steps": [
+    {
+      "id": "step1",
+      "title": "Wie ben jij en welke rol heb je?",
+      "description": "Een paar gegevens over jou. Omdat je bent ingelogd zijn je naam en emailadres al bekend",
+      "backgroundImage": {
+        "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72",
+        "opacity": "light",
+        "position": "center"
+      },
+      "questions": [
+        {
+          "id": "rol",
+          "type": "radio",
+          "title": "Wat is jouw rol/afdeling?",
+          "description": "Kies graag de optie die het beste past.",
+          "required": true,
+          "options": [
+            {
+              "value": "hr",
+              "label": "HR"
+            },
+            {
+              "value": "fin",
+              "label": "Financieel"
+            },
+            {
+              "value": "mark",
+              "label": "Marketing & Communicatie"
+            },
+            {
+              "value": "sales",
+              "label": "Sales"
+            },
+            {
+              "value": "om",
+              "label": "Office Management/Secretariaat"
+            },
+            {
+              "value": "mgt",
+              "label": "Management"
+            },
+            {
+              "value": "prj",
+              "label": "Project Manager, Scrum Master, PMO"
+            },
+            {
+              "value": "cons",
+              "label": "Consultant"
+            },
+            {
+              "value": "des",
+              "label": "Designer"
+            },
+            {
+              "value": "desk",
+              "label": "Service Desk, Support"
+            },
+            {
+              "value": "eng",
+              "label": "Technical Engineer"
+            },
+            {
+              "value": "arch",
+              "label": "Architect"
+            },
+            {
+              "value": "overigStaf",
+              "label": "Een andere staf-rol"
+            },
+            {
+              "value": "overigFee",
+              "label": "Een andere fee-earner-rol"
+            }
+          ]
+        },
+        {
+          "id": "bedrijf",
+          "type": "radio",
+          "title": "Bij welk ecosysteem-bedrijf ben je werkzaam?",
+          "description": "Kies het bedrijf waar je voor werkt.",
+          "required": true,
+          "shuffle": false,
+          "options": [
+            {
+              "value": "amis",
+              "label": "AMIS"
+            },
+            {
+              "value": "ai",
+              "label": "AI360"
+            },
+            {
+              "value": "an",
+              "label": "Arlanet"
+            },
+            {
+              "value": "ba",
+              "label": "Bright Alley"
+            },
+            {
+              "value": "bb",
+              "label": "Brain Brothers"
+            },
+            {
+              "value": "bi",
+              "label": "Bikkelhart"
+            },
+            {
+              "value": "cas",
+              "label": "Conclusion CAS"
+            },
+            {
+              "value": "cbs",
+              "label": "Conclusion Business Services"
+            },
+            {
+              "value": "cc",
+              "label": "Conclusion Consulting"
+            },
+            {
+              "value": "ce",
+              "label": "Conclusion Enablement"
+            },
+            {
+              "value": "cid",
+              "label": "Conclusion Intelligence DACH (voorheen Mediaan)"
+            },
+            {
+              "value": "cmc",
+              "label": "Conclusion Mission Critical"
+            },
+            {
+              "value": "conf",
+              "label": "Conclusion Confidential"
+            },
+            {
+              "value": "cint",
+              "label": "Conclusion Integration"
+            },
+            {
+              "value": "cx",
+              "label": "Conclusion Experience"
+            },
+            {
+              "value": "dna",
+              "label": "D&A group"
+            },
+            {
+              "value": "fe",
+              "label": "Conclusion ForeyeT"
+            },
+            {
+              "value": "ff",
+              "label": "Future Facts"
+            },
+            {
+              "value": "f8",
+              "label": "First 8"
+            },
+            {
+              "value": "fu",
+              "label": "Furore"
+            },
+            {
+              "value": "hi",
+              "label": "Hot ITem"
+            },
+            {
+              "value": "kwd",
+              "label": "KWD Resultaat Management"
+            },
+            {
+              "value": "llc",
+              "label": "Low Code Company"
+            },
+            {
+              "value": "ma",
+              "label": "myAppX"
+            },
+            {
+              "value": "mbs",
+              "label": "Conclusion MBS"
+            },
+            {
+              "value": "myb",
+              "label": "Conclusion myBrand"
+            },
+            {
+              "value": "nf",
+              "label": "NextFields"
+            },
+            {
+              "value": "nw",
+              "label": "Nexwork"
+            },
+
+            {
+              "value": "pi",
+              "label": "PossibilIT"
+            },
+            {
+              "value": "tfe",
+              "label": "theFactor.e"
+            },
+            {
+              "value": "xf",
+              "label": "Conclusion Xforce"
+            },
+            {
+              "value": "yt",
+              "label": "Yellowtail (incl ADPI, Da Vinci, KCD, Fortrum)"
+            },
+            {
+              "value": "other",
+              "label": "Een ander ecosysteem-bedrijf"
+            }
+      ]
+        }
+      ]
+    },
+    {
+      "id": "step2",
+      "title": "Conclusion on Stage",
+      "description": "Wat weet je van Conclusion on Stage? Wel eens van gehoord? Wel eens bezocht? Heb je er een mening over?",
+      "questions": [
+        {
+          "id": "onstage_kennis",
+          "type": "radio",
+          "title": "Kennis van Conclusion on Stage",
+          "description": "Heb je wel eens gehoord van Conclusion on Stage?",
+          "options": [
+            {
+              "value": "geen",
+              "label": "Nog nooit "
+            },
+            {
+              "value": "minimal",
+              "label": "Wel eens van gehoord maar weet niet precies wat het is"
+            },
+            {
+              "value": "moderate",
+              "label": "Ik weet precies wat dat is"
+            }
+          ]
+        },
+        {
+          "id": "onstage_deelname",
+          "type": "radio",
+          "title": "Deelname Conclusion on Stage",
+          "description": "Heb je wel eens een editie van Conclusion on Stage bezocht?",
+          "options": [
+            {
+              "value": "geen",
+              "label": "Nog nooit "
+            },
+            {
+              "value": "minimal",
+              "label": "Eén keer"
+            },
+            {
+              "value": "moderate",
+              "label": "Een paar keer"
+            },
+            {
+              "value": "extensive",
+              "label": "Zo'n beetje iedere keer dat ik kon"
+            }
+          ],
+          "conditions": {
+            "operator": "and",
+            "rules": [
+              {
+                "questionId": "onstage_kennis",
+                "type": "answered"
+              },
+              {
+                "questionId": "onstage_kennis",
+                "type": "optionChecked",
+                "optionId": "moderate"
+              }
+            ]
+          }
+        },
+        {
+          "id": "onstage_waarom_geen_deelname",
+          "type": "checkbox",
+          "title": "Waarom geen deelname Conclusion on Stage",
+          "description": "Wat zijn overwegingen waarom je niet naar een Conclusion on Stage event bent geweest?",
+          "options": [
+            {
+              "value": "inhoud",
+              "label": "De inhoud was niet aantrekkelijk"
+            },
+            {
+              "value": "moment",
+              "label": "Het moment paste je niet goed"
+            },
+            {
+              "value": "plaats",
+              "label": "De locatie van het event"
+            },
+            {
+              "value": "opzet",
+              "label": "De opzet van het event"
+            },
+            {
+              "value": "communicatie",
+              "label": "De communicatie "
+            },
+            {
+              "value": "other",
+              "label": "Other"
+            }
+          ],
+          "allowComment": true,
+          "conditions": {
+            "operator": "and",
+            "rules": [
+              {
+                "questionId": "onstage_deelname",
+                "type": "answered"
+              },
+              {
+                "questionId": "onstage_deelname",
+                "type": "optionChecked",
+                "optionId": [
+                  "geen"
+                ]
+              },
+              {
+                "questionId": "onstage_kennis",
+                "type": "answered"
+              },
+              {
+                "questionId": "onstage_kennis",
+                "type": "optionChecked",
+                "optionId": "moderate"
+              }
+            ]
+          }
+        },
+        {
+          "id": "onstage_wat_vind_je_van_onstage",
+          "title": "Wat vond je van de Conclusion on Stage events die je hebt meegemaakt?",
+          "description": "Geef aan wat je van de Conclusion on Stage events vindt.",
+          "type": "likert",
+          "options": [
+            {
+              "value": "leuk",
+              "label": "Leuk, gezellig"
+            },
+            {
+              "value": "inhoud",
+              "label": "Waardevolle inhoud"
+            },
+            {
+              "value": "interacties",
+              "label": "Waardevolle interacties"
+            },
+            {
+              "value": "catering",
+              "label": "Prima catering"
+            },
+            {
+              "value": "communicatie",
+              "label": "Duidelijke communicatie"
+            },
+            {
+              "value": "logistiek",
+              "label": "Goede Locatie & Logistiek"
+            },
+            {
+              "value": "aanrader",
+              "label": "Aanrader voor collega's"
+            }
+          ],
+          "likertScale": {
+            "min": 1,
+            "max": 3,
+            "labels": {
+              "1": "Niet mee eens",
+              "2": "Beetje mee eens",
+              "3": "Heel erg mee eens"
+            }
+          },
+          "allowComment": true,
+          "conditions": {
+            "operator": "and",
+            "rules": [
+              {
+                "questionId": "onstage_deelname",
+                "type": "answered"
+              },
+              {
+                "questionId": "onstage_deelname",
+                "type": "optionChecked",
+                "optionId": [
+                  "minimal",
+                  "moderate",
+                  "extensive"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "toelichting_op_ervaring",
+          "type": "longText",
+          "title": "Jouw ervaring met Conclusion on Stage",
+          "description": "Omschrijf kort jouw ervaring met Conclusion on Stage. Wat vond je goed, wat kan beter? Wat miste je, wat zou je graag anders zien? Wat voor soort onderwerpen en thema's zou je graag behandeld zien? Wat voor soort sprekers en presentaties zou je graag zien? Wat voor soort interacties en workshops zou je graag zien? Alle feedback is welkom.",
+          "conditions": {
+            "operator": "and",
+            "rules": [
+              {
+                "questionId": "onstage_deelname",
+                "type": "answered"
+              },
+              {
+                "questionId": "onstage_deelname",
+                "type": "optionChecked",
+                "optionId": [
+                  "minimal",
+                  "moderate",
+                  "extensive"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "step3",
+      "title": "Interesse in (wat voor) een Conclusion-collega-ontmoetingsevent",
+      "description": "Een evenement waar collega's uit alle bedrijven van het Conclusion ecosysteem elkaar ontmoeten. Een mini-conferentie waar korte sessies in meerdere zalen plaatsvinden. Presentaties, Q&A-sessies, workshops, brainstorms, gesprekken. Over zakelijke onderwerpen (klanten, professionele ontwikkeling, klant-cases, interne organisatie, HR, lease-auto, strategie, techniek) en over persoonlijke en maatschappelijke thema's. Met als doel elkaar te leren kennen, inspiratie te halen en te brengen, enthousiast te worden en kennis te maken en op te doen. Dat kan lijken op Conclusion on Stage, maar dat kan ook heel anders worden uitgevoerd.",
+      "backgroundImage": {
+        "url": "https://images.unsplash.com/photo-1685038761459-534ded964a73?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "opacity": "medium",
+        "position": "bottom"
+      },
+      "questions": [
+        {
+          "id": "interesseInEvent",
+          "type": "radio",
+          "title": "Interesse?",
+          "description": "Heb jij interesse in zo'n evenement?",
+          "options": [
+            {
+              "value": "nee",
+              "label": "Nee"
+            },
+            {
+              "value": "misschien",
+              "label": "Misschien"
+            },
+            {
+              "value": "ja",
+              "label": "Ja"
+            }
+          ]
+        },
+        {
+          "id": "toelichting_op_geen_interesse",
+          "type": "longText",
+          "title": "Waarom geen interesse?",
+          "description": "Zou je kort kunnen toelichten waarom je geen interesse hebt in zo'n evenement? Wat zijn je overwegingen? Tijd, inhoud, werk/privé balans, .. Alle feedback is welkom.",
+          "conditions": {
+            "operator": "and",
+            "rules": [
+              {
+                "questionId": "interesseInEvent",
+                "type": "answered"
+              },
+              {
+                "questionId": "interesseInEvent",
+                "type": "optionChecked",
+                "optionId": [
+                  "nee"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "event_onderwerpen",
+          "title": "Welk soort onderwerpen spreekt je aan?",
+          "description": "Kan je van onderstaande thema's en onderwerpcategorieën aangeven welke je aanspreken om op een event te zien en horen?",
+          "type": "likert",
+          "options": [
+            {
+              "value": "cases",
+              "label": "Klantcases & Projecten"
+            },
+            {
+              "value": "strategie",
+              "label": "Conclusion strategie, beleid, resultaten"
+            },
+            {
+              "value": "professionele_ontwikkeling",
+              "label": "Professionele ontwikkeling (presenteren, time management, coaching, mentorship, AI toepassing)"
+            },
+            {
+              "value": "technisch",
+              "label": "Technisch inhoudelijk (tools, cloud, automatisering)"
+            },
+            {
+              "value": "tips",
+              "label": "Tips over series, boeken, muziek, restaurants, films, podcasts, museum"
+            },
+            {
+              "value": "persoonlijke_verhalen",
+              "label": "Persoonlijke verhalen - reis, hobby, mantelzorg, maatschappelijke betrokkenheid"
+            },
+            {
+              "value": "intern",
+              "label": "Conclusion intern - HR, lease-auto, Cares, Sports, interne mobiliteit"
+            }
+          ],
+          "likertScale": {
+            "min": 1,
+            "max": 3,
+            "labels": {
+              "1": "Niet",
+              "2": "Beetje",
+              "3": "Ja"
+            }
+          },
+          "allowComment": true,
+          "conditions": {
+            "operator": "and",
+            "rules": [
+              {
+                "questionId": "interesseInEvent",
+                "type": "answered"
+              },
+              {
+                "questionId": "interesseInEvent",
+                "type": "optionChecked",
+                "optionId": [
+                  "misschien",
+                  "ja"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "event_vormen",
+          "title": "Welk soort sessies spreekt je aan?",
+          "description": "Welke van deze mogelijke sessie-vormen spreken je aan?",
+          "type": "likert",
+          "options": [
+            {
+              "value": "presentatie",
+              "label": "Presentatie"
+            },
+            {
+              "value": "workshop",
+              "label": "Workshop (zelf aan de slag)"
+            },
+            {
+              "value": "paneldiscussie",
+              "label": "Paneldiscussie"
+            },
+            {
+              "value": "brainstormsessie",
+              "label": "Brainstormsessie"
+            },
+            {
+              "value": "qa_sessie",
+              "label": "Q&A-sessie"
+            },
+            {
+              "value": "demonstratie",
+              "label": "Demonstratie"
+            }
+          ],
+          "likertScale": {
+            "min": 1,
+            "max": 3,
+            "labels": {
+              "1": "Niet",
+              "2": "Beetje",
+              "3": "Ja"
+            }
+          },
+          "allowComment": true,
+          "conditions": {
+            "operator": "and",
+            "rules": [
+              {
+                "questionId": "interesseInEvent",
+                "type": "answered"
+              },
+              {
+                "questionId": "interesseInEvent",
+                "type": "optionChecked",
+                "optionId": [
+                  "misschien",
+                  "ja"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "step4",
+      "title": "Wanneer, waar en wie",
+      "description": "Heb je suggesties voor wanneer, waar en voor wie? ",
+      "backgroundImage": {
+        "url": "https://images.unsplash.com/photo-1597768164194-b804b42bd61a?q=80&w=1071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "opacity": "medium",
+        "position": "bottom"
+      },
+      "questions": [
+        {
+          "id": "frequentie",
+          "title": "Hoe vaak?",
+          "description": "Hoe vaak zou het event moeten plaatsvinden? , weekdag, online, locatie, externe bezoekers ",
+          "type": "radio",
+          "options": [
+            {
+              "value": "0",
+              "label": "Helemaal niet"
+            },
+            {
+              "value": "1",
+              "label": "1x per jaar"
+            },
+            {
+              "value": "2",
+              "label": "2x per jaar"
+            },
+            {
+              "value": "3",
+              "label": "3x per jaar"
+            },
+            {
+              "value": "4",
+              "label": "4x per jaar"
+            }
+          ]
+        },
+        {
+          "id": "weekdag",
+          "title": "Welke dag van de week?",
+          "description": "Welke dag van de week werkt voor jou meestal het best om dit event bij te wonen?",
+          "type": "likert",
+          "options": [
+            {
+              "value": "ma",
+              "label": "Maandag"
+            },
+            {
+              "value": "di",
+              "label": "Dinsdag"
+            },
+            {
+              "value": "wo",
+              "label": "Woensdag"
+            },
+            {
+              "value": "do",
+              "label": "Donderdag"
+            },
+            {
+              "value": "vr",
+              "label": "Vrijdag"
+            }
+          ],
+          "likertScale": {
+            "min": 1,
+            "max": 3,
+            "labels": {
+              "1": "Niet",
+              "2": "Af en toe",
+              "3": "Het Best"
+            }
+          },
+          "allowComment": true
+        },
+        {
+          "id": "online",
+          "title": "Online deelname?",
+          "description": "Zouden sessies online aangeboden moeten worden? Zou jij daarnaar kijken?",
+          "type": "radio",
+          "options": [
+            {
+              "value": "niet",
+              "label": "Voor mij niet"
+            },
+            {
+              "value": "live",
+              "label": "Graag live - ik zou misschien kijken/meedoen"
+            },
+            {
+              "value": "live_anderen",
+              "label": "Graag live - voor mijn collega's"
+            },
+            {
+              "value": "opgenomen",
+              "label": "Graag opgenomen"
+            }
+          ],
+          "allowComment": true
+        },
+        {
+          "id": "locatie",
+          "type": "longText",
+          "title": "Locatie",
+          "description": "Heb je suggesties voor een event-locatie of een idee van waar een locatie aan moet voldoen? Welke locatie(s) spreken je aan? "
+        },
+        {
+          "id": "gasten",
+          "title": "Externe bezoekers/Gast deelnemers?",
+          "description": "Welke soort externe bezoeker is wat jou betreft welkom bij dit event?",
+          "type": "checkbox",
+          "options": [
+            {
+              "value": "introducee",
+              "label": "Introduce(e)(s) van collega's (vrienden, familie)"
+            },
+            {
+              "value": "kandidaat",
+              "label": "Recruitmentkandidaten"
+            },
+            {
+              "value": "klant",
+              "label": "(Medewerkers van) Klanten"
+            },
+            {
+              "value": "student",
+              "label": "Studenten"
+            },
+            {
+              "value": "alumnus",
+              "label": "Oud-collega's"
+            },
+            {
+              "value": "other",
+              "label": "Overige"
+            }
+          ],
+          "allowComment": true
+        }
+      ]
+    },
+    {
+      "id": "step5",
+      "title": "Communicatie",
+      "description": "Hoe kan de communicatie over zo'n evenement het beste plaatsvinden? Via welke kanalen, met welke toon, met welke frequentie?",
+      "backgroundImage": {
+        "url": "https://images.unsplash.com/photo-1598216048950-0aec55fac3a1?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "opacity": "medium",
+        "position": "bottom"
+      },
+      "questions": [
+        {
+          "id": "kanaal",
+          "title": "Communicatiekanalen",
+          "description": "Via welke communicatiekanalen zou je het liefst geïnformeerd worden over zo'n evenement?",
+          "type": "likert",
+          "options": [
+            {
+              "value": "mail",
+              "label": "Email"
+            },
+            {
+              "value": "ci",
+              "label": "Calendar Invite/Outlook Agenda Uitnodiging"
+            },
+            {
+              "value": "syd",
+              "label": "Start Your Day"
+            },
+            {
+              "value": "ve",
+              "label": "Viva Engage"
+            },
+            {
+              "value": "in",
+              "label": "Intranet van jouw bedrijf"
+            },
+            {
+              "value": "nc",
+              "label": "Narrowcasting (beeldschermen op kantoor)"
+            },
+            {
+              "value": "pf",
+              "label": "Posters/Folders op kantoor"
+            },
+            {
+              "value": "po",
+              "label": "Papieren brief thuis"
+            },
+            {
+              "value": "other",
+              "label": "Overige"
+            }
+          ],
+          "likertScale": {
+            "min": 1,
+            "max": 3,
+            "labels": {
+              "1": "Niet",
+              "2": "Draagt bij",
+              "3": "Het Best"
+            }
+          },
+          "allowComment": true
+        },
+        {
+          "id": "communicatieTips",
+          "type": "longText",
+          "title": "Tips voor Communicatie",
+          "description": "Heb je tips voor de communicatie rondom het event? Denk aan kanalen, frequentie, toon, etc."
+        },
+        {
+          "id": "aantrekkelijker",
+          "type": "longText",
+          "title": "Hoe maken we het event aantrekkelijk(er)",
+          "description": "Heb je nog tips om het event aantrekkelijk(er) te maken voor jou en/of je collega's? Dat kanm van alles zijn: inhoud, vorm, communicatie, timing, locatie, catering. etc."
+        },
+        {
+          "id": "titel",
+          "type": "longText",
+          "title": "Titel voor Event",
+          "description": "Is Conclusion on Stage een goede titel voor het event dat we in deze survey bespreken? Of dekt het de lading niet/geeft het een verkeerde indruk? Wat zou misschien een betere titel zijn?"
+        }
+      ]
+    }
+  ]
+}

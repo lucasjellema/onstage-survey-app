@@ -1,0 +1,17 @@
+{
+  "name": "oci-fn-node",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {},
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "mounts": [
+    "source=${localEnv:HOME}/.oci,target=/vscode/.oci,type=bind",
+    "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+  ],
+  "postCreateCommand": "cd server && npm install && fn --version && oci --version && node -v && npm -v",
+  "postStartCommand": "sudo chown root:docker /var/run/docker.sock && sudo chmod 660 /var/run/docker.sock",
+  "remoteUser": "vscode"
+}
