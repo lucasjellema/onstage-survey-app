@@ -111,7 +111,7 @@
             },
             {
               "value": "cas",
-              "label": "Conclusion CAS"
+              "label": "Conclusion AFAS Services"
             },
             {
               "value": "cbs",
@@ -150,16 +150,16 @@
               "label": "D&A group"
             },
             {
+              "value": "f8",
+              "label": "First 8"
+            },
+            {
               "value": "fe",
               "label": "Conclusion ForeyeT"
             },
             {
               "value": "ff",
               "label": "Future Facts"
-            },
-            {
-              "value": "f8",
-              "label": "First 8"
             },
             {
               "value": "fu",
@@ -184,6 +184,10 @@
             {
               "value": "mbs",
               "label": "Conclusion MBS"
+            },
+            {
+              "value": "mo",
+              "label": "Morgens"
             },
             {
               "value": "myb",
