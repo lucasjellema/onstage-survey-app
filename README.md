@@ -1,4 +1,4 @@
-# Cloud Survey Application
+# On Stage Event Survey Application
 
 A secure, cloud-based survey application that provides dynamic question rendering with Microsoft Entra ID (Azure AD) authentication. This application allows organizations to create, deploy, and collect responses to sophisticated surveys with various question types.
 
