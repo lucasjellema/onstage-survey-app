@@ -626,7 +626,7 @@
         {
           "id": "frequentie",
           "title": "Hoe vaak?",
-          "description": "Hoe vaak zou het event moeten plaatsvinden? , weekdag, online, locatie, externe bezoekers ",
+          "description": "Hoe vaak zou het event moeten plaatsvinden?",
           "type": "radio",
           "options": [
             {
@@ -829,7 +829,7 @@
           "id": "aantrekkelijker",
           "type": "longText",
           "title": "Hoe maken we het event aantrekkelijk(er)",
-          "description": "Heb je nog tips om het event aantrekkelijk(er) te maken voor jou en/of je collega's? Dat kanm van alles zijn: inhoud, vorm, communicatie, timing, locatie, catering. etc."
+          "description": "Heb je nog tips om het event aantrekkelijk(er) te maken voor jou en/of je collega's? Dat kan van alles zijn: inhoud, vorm, communicatie, timing, locatie, catering. etc."
         },
         {
           "id": "titel",
