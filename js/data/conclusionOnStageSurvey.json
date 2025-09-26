@@ -1,6 +1,6 @@
 {
   "title": "Conclusion On Stage Survey",
-  "description": "Een evenement waarin collega's uit het Conclusion ecosysteem rond inhoud elkaar ontmoeten. Is daar interesse in? Zo ja, in welke vorm en met wat voor inhoud? Gaan we door met Conclusion on Stage - en zo ja, hoe dan? Deze survey moet op die vragen een antwoord geven.",
+  "description": "Een evenement waarin collega's uit het Conclusion-ecosysteem rond inhoud elkaar ontmoeten. Is daar interesse in? Zo ja, in welke vorm en met wat voor inhoud? Gaan we door met Conclusion on Stage - en zo ja, hoe dan? Deze survey moet op die vragen een antwoord geven.",
   "steps": [
     {
       "id": "step1",
@@ -18,6 +18,7 @@
           "title": "Wat is jouw rol/afdeling?",
           "description": "Kies graag de optie die het beste past.",
           "required": true,
+          "columns": 2,
           "options": [
             {
               "value": "hr",
@@ -84,6 +85,7 @@
           "description": "Kies het bedrijf waar je voor werkt.",
           "required": true,
           "shuffle": false,
+          "columns": 3,
           "options": [
             {
               "value": "amis",
@@ -441,11 +443,6 @@
       "id": "step3",
       "title": "Interesse in (wat voor) een Conclusion-collega-ontmoetingsevent",
       "description": "Een evenement waar collega's uit alle bedrijven van het Conclusion ecosysteem elkaar ontmoeten. Een mini-conferentie waar korte sessies in meerdere zalen plaatsvinden. Presentaties, Q&A-sessies, workshops, brainstorms, gesprekken. Over zakelijke onderwerpen (klanten, professionele ontwikkeling, klant-cases, interne organisatie, HR, lease-auto, strategie, techniek) en over persoonlijke en maatschappelijke thema's. Met als doel elkaar te leren kennen, inspiratie te halen en te brengen, enthousiast te worden en kennis te maken en op te doen. Dat kan lijken op Conclusion on Stage, maar dat kan ook heel anders worden uitgevoerd.",
-      "backgroundImage": {
-        "url": "https://images.unsplash.com/photo-1685038761459-534ded964a73?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "opacity": "medium",
-        "position": "bottom"
-      },
       "questions": [
         {
           "id": "interesseInEvent",
@@ -692,24 +689,24 @@
         {
           "id": "online",
           "title": "Online deelname?",
-          "description": "Zouden sessies online aangeboden moeten worden? Zou jij daarnaar kijken?",
+          "description": "Zouden sessies online aangeboden moeten worden? Zou jij daarnaar kijken? Of collega's?",
           "type": "radio",
           "options": [
             {
               "value": "niet",
-              "label": "Voor mij niet"
+              "label": "Voor mij is online niet nodig"
             },
             {
               "value": "live",
-              "label": "Graag live - ik zou misschien kijken/meedoen"
+              "label": "Graag online en live - ik zou misschien kijken/meedoen met het event"
             },
             {
               "value": "live_anderen",
-              "label": "Graag live - voor mijn collega's"
+              "label": "Graag online en live - niet voor mijzelf maar wel voor mijn collega's"
             },
             {
               "value": "opgenomen",
-              "label": "Graag opgenomen"
+              "label": "Graag opgenomen om later te bekijken"
             }
           ],
           "allowComment": true
@@ -836,6 +833,18 @@
           "type": "longText",
           "title": "Titel voor Event",
           "description": "Is Conclusion on Stage een goede titel voor het event dat we in deze survey bespreken? Of dekt het de lading niet/geeft het een verkeerde indruk? Wat zou misschien een betere titel zijn?"
+        },
+        {
+          "id": "eigen_bijdrage",
+          "type": "longText",
+          "title": "Eigen bijdrage",
+          "description": "Wat voor bijdrage zou jij zelf kunnen leveren aan zo'n evenement? Bijvoorbeeld communucatie, organisatie & logistiek, zaalwacht, of een sessie (presentatie, workshop, demonstratie, brainstorm, paneldiscussie, Q&A-sessie, etc). "
+        },
+        {
+          "id": "gemist",
+          "type": "longText",
+          "title": "Mis je nog iets?",
+          "description": "Is er nog iets dat je mist in deze survey? Heb je nog andere opmerkingen of suggesties? Alle feedback is welkom."
         }
       ]
     }

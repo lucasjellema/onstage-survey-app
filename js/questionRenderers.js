@@ -293,8 +293,29 @@ function renderLongText(question) {
 function renderRadio(question) {
   const container = createQuestionContainer(question);
 
+    // Variable to keep track of the number of columns
+  let columns = question.columns || 1;
+
   const optionsContainer = document.createElement('div');
-  optionsContainer.className = 'radio-options-container';
+  optionsContainer.className = `${ columns>1 ? 'radios_grid-' + columns : '' } radio-options-container`;
+
+
+  // // Add CSS rules to make the options display in the desired number of columns
+  // optionsContainer.style.cssText = `
+  //   display: flex;
+  //   flex-wrap: wrap;
+  //   justify-content: center;
+  // `;
+
+  // // Calculate the width of each option
+  // const optionWidth = (100 / columns) + '%';
+
+  // // Add CSS rules to make the options display in the desired number of columns
+  // optionsContainer.style.cssText += `
+  //   .radio-option {
+  //     flex-basis: ${optionWidth};
+  //   }
+  // `;
 
   // Load existing response if available
   const existingResponse = surveyData.getResponse(question.id);

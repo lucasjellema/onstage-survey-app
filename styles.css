@@ -239,6 +239,11 @@ footer {
   margin-right: 5px;
 }
 
+/* grid variants */
+.radios_grid-2 { display: grid!important; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem 1.25rem; } 
+.radios_grid-3 { display: grid!important; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .25rem 1rem; }
+
+
 /* Survey Pagination Circles */
 .survey-pagination {
   display: flex;
