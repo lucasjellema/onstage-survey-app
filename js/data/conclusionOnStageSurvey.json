@@ -104,10 +104,6 @@
               "label": "Bright Alley"
             },
             {
-              "value": "bb",
-              "label": "Brain Brothers"
-            },
-            {
               "value": "bi",
               "label": "Bikkelhart"
             },
@@ -140,12 +136,16 @@
               "label": "Conclusion Confidential"
             },
             {
+              "value": "cx",
+              "label": "Conclusion Experience"
+            },
+            {
               "value": "cint",
               "label": "Conclusion Integration"
             },
             {
-              "value": "cx",
-              "label": "Conclusion Experience"
+              "value": "bb",
+              "label": "Conclusion Staffing"
             },
             {
               "value": "dna",
